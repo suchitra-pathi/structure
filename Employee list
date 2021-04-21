@@ -1,0 +1,272 @@
+#include <stdio.h>
+
+ 
+typedef struct{
+ 
+    
+    int  No;
+    char Name;
+    char Department;
+    int  Salary;
+    
+       
+ 
+} Employee;
+ 
+int main()
+{
+    int i, n= 20;
+ 
+     Employee employees[n];
+ 
+    
+ 
+    printf("Enter  Employee Details \n \n",n);
+    for (i = 0; i < 20; i++){
+ 
+        printf("Employee %d:- \n", i + 1);
+        
+        printf("No: ");
+        scanf("%d", &employees[i].No);
+        
+        printf("Name: ");
+        scanf("%s", &employees[i].Name);
+        
+        printf("Department: ");
+        scanf("%s", &employees[i].Department);
+        
+        printf("Salary: ");
+        scanf("%d", &employees[i].Salary);
+ 
+        
+    }
+ 
+    
+ 
+    printf("   All Employees Details   \n");
+ 
+    for (i = 0; i < n; i++){
+ 
+        printf("No \t: ");
+        printf("%d \n",employees[i].No);
+ 
+        printf("Name \t: ");
+        printf("%s \n",employees[i].Name);
+ 
+        printf("Department \t: ");
+        printf("%s \n",employees[i].Department);
+        
+        printf("Salary \t: ");
+        printf("%f \n",employees[i].Salary);
+ 
+        printf("\n");
+    }
+ 
+    return 0;
+ 
+}
+Enter  Employee Details 
+ 
+Employee 1:- 
+No: 1
+Name: Ravi
+Department: Audit
+Salary: 20000
+Employee 2:- 
+No: 2
+Name: Arjun
+Department: Finance
+Salary: 30000
+Employee 3:- 
+No: 3
+Name: Sravani
+Department: Audit
+Salary: 40000
+Employee 4:- 
+No: 4
+Name: Ram
+Department: Finance
+Salary: 30000
+Employee 5:- 
+No: 5
+Name: Tarun
+Department: Audit
+Salary: 40000
+Employee 6:- 
+No: 6
+Name: Shriya
+Department: Finance
+Salary: 30000
+Employee 7:- 
+No: 7
+Name: Swiya
+Department: Finance
+Salary: 60000
+Employee 8:- 
+No: 8
+Name: Sagar
+Department: Audit
+Salary: 50000
+Employee 9:- 
+No: 9
+Name: Srujan
+Department: Audit
+Salary: 40000
+Employee 10:- 
+No: 10
+Name: Srujana
+Department: Finance
+Salary: 30000
+Employee 11:- 
+No: 11
+Name: Ramu
+Department: Audit
+Salary: 20000
+Employee 12:- 
+No: 12
+Name: Srusti
+Department: Audit
+Salary: 20000
+Employee 13:- 
+No: 13
+Name: Shiva
+Department: Audit
+Salary: 10000
+Employee 14:-
+No: 14
+Name: Anjali
+Department: Finance
+Salary: 40000
+Employee 15:-
+No: 15
+Name: Lucky
+Department: Audit
+Salary: 30000
+Employee 16:-
+No: 16
+Name: Harshini
+Department: Finance
+Salary: 20000
+Employee 17:-
+No: 17
+Name: Sushant
+Department: Audit
+Salary: 50000
+Employee 18:-
+No: 18
+Name: Nani
+Department: Finance
+Salary: 100000
+Employee 19:-
+No: 19
+Name: Srinivas
+Department: Audit
+Salary: 70000
+Employee 20:-
+No: 20
+Name: Suchitra
+Department: Audit
+Salary: 50000
+
+Output
+
+   All Employees Details
+No:         1
+Name:       Ravi
+Department: Audit
+Salary:     20000
+
+No:         2
+Name:       Arjun
+Department: Finance
+Salary:     30000
+
+No:         3
+Name:       Sravani
+Department: Audit
+Salary:     40000
+
+No:         4
+Name:       Ram
+Department: Finance
+Salary:     30000
+
+No:         5
+Name:.      Tarun
+Department: Audit
+Salary:     40000
+ 
+No:          6
+Name:       Shriya
+Department: Finance
+Salary:     30000
+
+No:         7
+Name:       Swiya
+Department: Finance
+Salary:     60000
+ 
+No:         8
+Name:       Sagar
+Department: Audit
+Salary:     50000
+ 
+No:         9
+Name:       Srujan
+Department: Audit
+Salary:     40000
+
+No:         10
+Name:       Srujana
+Department: Finance
+Salary:     30000
+
+No:         11
+Name:       Ramu
+Department: Audit
+Salary:     20000
+
+No:         12
+Name:       Srusti
+Department: Audit
+Salary:     20000
+
+No:         13
+Name:       Shiva
+Department: Audit
+Salary:     10000
+
+No:         14
+Name:       Anjali
+Department: Finance
+Salary:     40000
+
+No:         15
+Name:       Lucky
+Department: Audit
+Salary:     30000
+
+No:         16
+Name:       Harshini
+Department: Finance
+Salary:     20000
+
+No:         17
+Name:       Sushant
+Department: Audit
+Salary:     50000
+
+No:         18
+Name:       Nani
+Department: Finance
+Salary:     100000
+
+No:         19
+Name:       Srinivas
+Department: Audit
+Salary:     70000
+
+No:         20
+Name:       Suchitra
+Department: Audit
+Salary:     50000
